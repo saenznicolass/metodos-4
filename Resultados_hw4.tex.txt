@@ -1,0 +1,210 @@
+\documentclass[notitlepage,letterpaper,12pt]{article}
+\usepackage[spanish]{babel} 
+
+%guia para informes de lb de ondas 
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel}
+\useunder{\uline}{\ul}{}
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url} 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics} 
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage[export]{adjustbox}
+\usepackage{geometry}     
+\geometry{letterpaper}     
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\chead{\bfseries {}}
+\lhead{}
+\lfoot{\it Tarea 4 Métodos Computacionales.}
+\cfoot{ }
+\rfoot{Universidad de los Andes}
+
+\voffset = -0.25in
+\textheight = 8.0in
+\textwidth = 6.5in
+\oddsidemargin = 0.in
+\headheight = 20pt
+\headwidth = 6.5in
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0,5pt}
+
+\begin{document}
+\title{Tarea 4 Métodos Computacionales}
+\author{
+\textbf{Boris Nicolas Saenz Rodriguez\thanks{e-mail: \texttt{bn.saenz10@uniandes.edu.co}}}\\
+\date{30 de abril de 2017}
+\textit{Universidad de los Andes, Bogotá, Colombia}\\
+} 
+
+\maketitle 
+
+
+\newpage
+\section{Gráficas}
+
+Se presentaran  las gráficas obtenidas de la ecuación de difusión en 2D de forma numerica
+
+Ya que para t=0 las graficas son exactamete iguales no importa que caso o que condicion se tenga, solo pondre una grafica la cual represtentara t=0 para las tres condiciones de frontera de cada caso:
+
+Gráfica de la solución para el caso 1 con condiciones de frontera fijas para t = 0: 
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t0fC1.png}
+  \caption{Caso 1, condicion fija, t=0}
+  \label{ini}
+\end{figure}
+
+\newpage
+
+Grafica de solucion de caso 1 con condicion de frontera fija para t = 100
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t100fC1.png}
+  \caption{Caso 1, condicion fija, t = 100.}
+  \label{c1t100c}
+\end{figure}
+\newpage
+
+
+Gráfica de  solución de caso 2 con condiciones de frontera fija para t = 100.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t100fC2.png}
+  \caption{Caso 2, condicion fija, t = 100.}
+  \label{fig: cobre}
+\end{figure}
+\newpage
+
+
+Gráfica de  solución de caso 1 con condiciones de frontera periodicas para t = 100.
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t100pC1.png}
+  \caption{Caso 1, condiciones de frontera periódicas, t = 100}
+  \label{c1t100p}
+\end{figure}
+\newpage
+
+
+Gráfica de  solución de caso 2 con condiciones de frontera periodicas para t = 100.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t100pC2.png}
+  \caption{Caso 2, condiciones de frontera Periodicas.}
+  \label{fig: cobre}
+\end{figure}
+
+\newpage
+
+
+Gráfica de  solución de caso 1 con condiciones de frontera fijas para t = 2500.
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t2500fC1.png}
+  \caption{Caso 1, condiciones de frontera fijas, t = 2500}
+  \label{c1t100c}
+\end{figure}
+\newpage
+
+Gráfica de  solución de caso 2 con condiciones de frontera fijas para t = 2500.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t2500fC2.png}
+  \caption{Caso 2, condiciones de frontera fijas, t = 2500}
+  \label{fig: cobre}
+\end{figure}
+\newpage
+
+
+Gráfica de  solución de caso 1 con condiciones de frontera periodicas para t = 2500.
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t2500pC1.png}
+  \caption{Caso 1, condiciones de frontera periódicas, t = 2500}
+  \label{c1t100p}
+\end{figure}
+\newpage
+
+
+Gráfica de  solución de caso 2 con condiciones de frontera periodicas para t = 2500.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{t2500pC2.png}
+  \caption{Caso 2, condiciones de frontera Periodicas, t = 2500s}
+  \label{fig: cobre}
+\end{figure}
+
+
+
+
+%\section{Referencias}
+
+
+%\bibliographystyle{unsrt} % estilo de las referencias 
+%\bibliography{mybib.bib} %archivo con los datos de los artículos citados
+
+
+%\bibliography{mybib.bib} %archivo con los datos de los artículos citados
+
+% Forma Manual de hacer las referencias
+% Se escribe todo a mano...
+% Descomentar y jugar
+
+%\begin{thebibliography}{99}
+%\bibitem{Narasimhan1993}Narasimhan, M.N.L., (1993), \textit{Principles of
+%Continuum Mechanics}, (John Willey, New York) p. 510.
+
+%\bibitem{Demianski1985}Demia\'{n}ski M., (1985), \textit{Relativistic
+%Astrophysics,} in International Series in Natural Philosophy, Vol 110, Edited
+%by \textit{D. Ter Haar}, (Pergamon Press, Oxford).
+%\end{thebibliography}
+
+
+%Fin del documento
+\end{document}
+
+
+Así mismo, el factor de calidad $Q$ está dado por:
+\begin{equation}
+Q = \frac{1}{R} \sqrt\frac{L}{C}
+\end{equation}
+Por lo tanto, el valor del factor de calidad
+
+%Todo lo que escriba aquí será ignorado, aunque no fuera un comentario...
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+2 cm   & 4 cm   & 8 cm   \\ \hline
+175,77 & 129,77 & 88,77  \\ \hline
+223,77 & 129,77 & 114,77 \\ \hline
+219,77 & 134,77 & 77,77  \\ \hline
+190,77 & 120,77 & 83,77  \\ \hline
+\end{tabular}
+\caption{Número de colisiones a diferentes distancias en cinco minutos.}
+\label{tiempoFijo}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+   \includegraphics[scale= 0.8]{jairos.png}
+  \caption{Gráfica del periodo de la pulsación para diferentes razones entre las frecuencias naturales utilizando una pesa de 200g. Es de resaltar que el pico no está centrado en 1 pero está bastante cerca. Esto probablemente se debe a errores a la hora de medir la longitud de los péndulos.}
+  \label{fig: cobre}
+\end{figure}
